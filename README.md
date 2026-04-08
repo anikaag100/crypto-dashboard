@@ -74,40 +74,6 @@ npm run dev
 - Track triggered alerts
 - Manage multiple alerts simultaneously
 
-## Project Structure
-
-```
-src/
-├── pages/                   # Page components
-│   ├── Dashboard.tsx       # Main dashboard
-│   ├── Portfolio.tsx       # Portfolio management
-│   └── Alerts.tsx          # Price alerts
-├── components/             # Reusable components
-│   ├── Navbar.tsx
-│   ├── PriceCard.tsx
-│   ├── Chart.tsx
-│   ├── MarketTrends.tsx
-│   ├── PortfolioForm.tsx
-│   ├── PortfolioList.tsx
-│   ├── AlertForm.tsx
-│   └── AlertList.tsx
-├── api/                    # API clients
-│   └── cryptoApi.ts       # CoinGecko API integration
-├── store/                  # Zustand stores
-│   ├── portfolioStore.ts
-│   └── alertStore.ts
-├── App.tsx                 # Main app component with routing
-├── main.tsx                # Entry point
-└── index.css               # Global styles
-```
-
-
-## Data Persistence
-
-- **Portfolio**: Stored in browser's localStorage using Zustand
-- **Alerts**: Stored in browser's localStorage using Zustand
-- **Prices**: Fetched in real-time from CoinGecko API and updated every minute
-
 ## Performance
 
 - Vite provides instant hot reloading during development
@@ -141,8 +107,3 @@ src/
 
 
 
-Contributions are welcome! Feel free to fork and submit pull requests.
-
----
-
-**Happy trading! 🚀**
