@@ -74,49 +74,6 @@ npm run dev
 - Track triggered alerts
 - Manage multiple alerts simultaneously
 
-## Project Structure
-
-```
-src/
-├── pages/                   # Page components
-│   ├── Dashboard.tsx       # Main dashboard
-│   ├── Portfolio.tsx       # Portfolio management
-│   └── Alerts.tsx          # Price alerts
-├── components/             # Reusable components
-│   ├── Navbar.tsx
-│   ├── PriceCard.tsx
-│   ├── Chart.tsx
-│   ├── MarketTrends.tsx
-│   ├── PortfolioForm.tsx
-│   ├── PortfolioList.tsx
-│   ├── AlertForm.tsx
-│   └── AlertList.tsx
-├── api/                    # API clients
-│   └── cryptoApi.ts       # CoinGecko API integration
-├── store/                  # Zustand stores
-│   ├── portfolioStore.ts
-│   └── alertStore.ts
-├── App.tsx                 # Main app component with routing
-├── main.tsx                # Entry point
-└── index.css               # Global styles
-```
-
-## Environment Variables
-
-No environment variables needed! The CoinGecko API is free and doesn't require authentication.
-
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build locally
-
-## Data Persistence
-
-- **Portfolio**: Stored in browser's localStorage using Zustand
-- **Alerts**: Stored in browser's localStorage using Zustand
-- **Prices**: Fetched in real-time from CoinGecko API and updated every minute
-
 ## Performance
 
 - Vite provides instant hot reloading during development
@@ -126,12 +83,6 @@ No environment variables needed! The CoinGecko API is free and doesn't require a
 - Optimized re-renders with React hooks
 - Responsive design for all screen sizes
 
-## Browser Support
-
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
 
 ## API References
 
@@ -141,22 +92,7 @@ No environment variables needed! The CoinGecko API is free and doesn't require a
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 - [Vite](https://vitejs.dev/) - Next generation frontend tooling
 
-## Troubleshooting
 
-### Charts not loading?
-- Check browser console for API errors
-- Ensure internet connection is active
-- Clear browser cache and reload
-
-### Portfolio data not saving?
-- Check if localStorage is enabled in browser
-- Clear browser cache if data seems corrupted
-- Data is stored locally in your browser
-
-### Price data not updating?
-- The app fetches new data every minute automatically
-- Try refreshing the page
-- Check if CoinGecko API is experiencing downtime
 
 ## Future Enhancements
 
@@ -169,22 +105,5 @@ No environment variables needed! The CoinGecko API is free and doesn't require a
 - [ ] Multi-currency support
 - [ ] Historical portfolio tracking
 
-## License
 
-MIT License - feel free to use this project
 
-## Support
-
-For issues or questions, please check the troubleshooting section or consult:
-- [React Documentation](https://react.dev)
-- [Vite Documentation](https://vitejs.dev)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [CoinGecko API Documentation](https://www.coingecko.com/en/api/documentation)
-
-## Contributing
-
-Contributions are welcome! Feel free to fork and submit pull requests.
-
----
-
-**Happy trading! 🚀**
