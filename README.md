@@ -23,7 +23,6 @@ A comprehensive cryptocurrency dashboard built with React + Vite, featuring real
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Routing**: React Router v6
-- **Charts**: Recharts
 - **State Management**: Zustand
 - **API**: CoinGecko API (free, no authentication required)
 - **HTTP Client**: Axios
@@ -93,17 +92,6 @@ npm run dev
 - [Vite](https://vitejs.dev/) - Next generation frontend tooling
 
 
-
-## Future Enhancements
-
-- [ ] Authentication and cloud sync
-- [ ] More chart indicators and analysis tools
-- [ ] Export portfolio to CSV/PDF
-- [ ] Mobile app version
-- [ ] Push notifications for alerts
-- [ ] Advanced portfolio analytics
-- [ ] Multi-currency support
-- [ ] Historical portfolio tracking
 
 
 
